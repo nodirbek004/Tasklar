@@ -1,21 +1,34 @@
 ﻿using Tasklar._24Vazifa;
+using Tasklar._25Vazifa;
 
-EmployeeWorks emp = new EmployeeWorks();
-EmployeeWorks employeeWorks = new EmployeeWorks();
-//emp.CreateTable();
-//////////////////// bazaga malumot qoshish
+//EmployeeWorks emp = new EmployeeWorks();
+//EmployeeWorks employeeWorks = new EmployeeWorks();
 //EmployeeBase employeeBase = new EmployeeBase();
 //employeeBase = EmployeeMalumotlari.MalumotOLish();
-//employeeWorks.Created(employeeBase);
-//////////////////////// bazadan bir malumotni ochirish
-//EmployeeDeleteCase employeeDeleteCase = new EmployeeDeleteCase();
-//employeeDeleteCase = EmployeeMalumotlari.malumotniOlibTashlash();
-//employeeWorks.Delete(employeeDeleteCase);
-//////////////////////// bazadan hamma malumotni olish
-//employeeWorks.GetAll();
-///////////////////////// bazadagi barcha ma'lumotlarni o'chirish
-//employeeWorks.DeepDelete();
-////////////////////////// bazada malumotni yangilash
-EmployeeBase employeeBase = new EmployeeBase();
-employeeBase = EmployeeMalumotlari.MalumotOLish();
-employeeWorks.Update(employeeBase);
+//employeeWorks.Update(employeeBase);
+
+
+
+
+
+
+
+
+
+
+
+
+//string DataBaseName = "LessonDb";
+//string TableName = "Users";
+//string ColumnName = "Name";
+
+
+//Database.GetAll(TableName, DataBaseName, ColumnName);
+
+
+//List<Models> model = new List<Models>()
+//{
+//    new Models(){FirstName="Sotiboldi",LastName="Qaytaribberdiyev",Quantity=23}
+//};
+//Database.Insert(DataBaseName, TableName, model);
+
